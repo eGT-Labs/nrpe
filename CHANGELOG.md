@@ -5,6 +5,7 @@ This file is used to list changes made in each version of nrpe
 ## Unreleased
 
 - Remove windows references and use Chef defaults for `file` and `template` resources
+- Add `amazon` everywhere `platform_repo` is checked, so that current releases of Chef+Amazon Linux will behave as before (previous versions treated Amazon Linux as synonymous with RHEL).
 
 ## 2.0.5 (2018-12-14)
 
